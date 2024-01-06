@@ -25,26 +25,6 @@ const Contact = () => {
     <h5>Get in Touch</h5>
     <h2>Contact Me</h2>
       <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>loukasbass@gmail.com</h5>
-            <a href="mailto:loukasbass@gmail.com">Send a Message</a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Loukas Bassoukos</h5>
-            <a href="https://m.me/loukas.basoukos">Send a Message</a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>Whatsapp</h4>
-            <h5>+32494640001</h5>
-            <a href="https://api.whatsapp.com/send?phone+32494640001">Send a Message</a>
-          </article>
-        </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required/>
           <input type="email" name="email" placeholder='Your Email' required/>

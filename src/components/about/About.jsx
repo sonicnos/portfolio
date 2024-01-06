@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -23,22 +22,16 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>+3 Years Working</small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>+200 Worldwide</small>
+              <small>1 Year Learning</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>+80 Completed</small>
+              <small>+6 Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum delectus eligendi saepe, ex consequatur inventore libero impedit illum distinctio adipisci cupiditate aperiam exercitationem, accusamus sit quis porro velit error perferendis.</p>
+          <p>Hi, I'm Loukas Bassoukos, a 28-year-old tech enthusiast who transitioned into web development a year ago. With a foundation in technical support from three years in Athens, I've honed problem-solving skills. Proficient in web technologies, I bring a fresh perspective and eagerness to learn, combining my customer-centric approach from technical support with a passion for innovative solutions.</p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div> 

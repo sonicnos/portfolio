@@ -32,6 +32,9 @@
     margin-bottom: 1rem;
 }
 
+.portofolio__item-cta a{
+    margin-left: 10px;
+}
 /* ===================== MEDIA QUERIES (MEDUIM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .portofolio__container{

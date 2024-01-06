@@ -15,100 +15,67 @@ const Services = () => {
           </div>
           
           <ul className="service__list">
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
         </ul>
-        </article>
+      </article>
         {/*end UI/UX Design*/}
         
         <article className="service">
           <div className="service__head">
             <h3>Web development</h3>
           </div>
-          
+            
           <ul className="service__list">
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        </ul>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icons' />
+              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            </li>
+          </ul>
         </article>
         {/*End Web development*/}
-
-        <article className="service">
-          <div className="service__head">
-          <h3>Content Creation</h3>
-          </div>
-          <ul className="service__list">
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icons' />
-          <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-        </li>
-        </ul>
-        </article>
-        {/*End Content Creation*/}
       </div>
       
     </section>
