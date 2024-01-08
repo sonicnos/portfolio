@@ -121,7 +121,7 @@ img{
 /* ===================== MEDIA QUERIES (MEDUIM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .container {
-        width: var(--contaner-width-lg);
+        /* width: var(--contaner-width-lg); */
     }
 
     section {
