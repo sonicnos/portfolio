@@ -27,10 +27,14 @@
     height: 80px;
 }
 
-.portofolio__items-image{
+.portofolio__items-image {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portofolio__items-image img {
+    border-radius: 1rem;
 }
 
 .portofolio__item-cta {
