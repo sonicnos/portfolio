@@ -33,6 +33,7 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 
 .experience__details-icon {
