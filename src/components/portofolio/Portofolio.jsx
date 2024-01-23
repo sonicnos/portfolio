@@ -25,23 +25,23 @@ const data = [
   {
     id: 3,
     image: IMG3,
+    title: 'Job Apply tracker',
+    github: 'https://github.com/sonicnos/jobApply-tracker',
+    demo: 'https://job-tracker-eight.vercel.app/'
+  },
+  {
+    id: 4,
+    image: IMG4,
     title: 'Interactive rating component main',
     github: 'https://github.com/sonicnos/interactive-rating-component-main',
     demo: 'https://sonicnos.github.io/interactive-rating-component-main/'
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: 'Product preview card component main front end mentor',
     github: 'https://github.com/sonicnos/product-preview-card-component-main-front-end-mentor',
     demo: 'https://sonicnos.github.io/product-preview-card-component-main-front-end-mentor/'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: '3 column preview card component main',
-    github: 'https://github.com/sonicnos/3-column-preview-card-component-main/',
-    demo: 'https://sonicnos.github.io/3-column-preview-card-component-main/'
   },
   {
     id: 6,
