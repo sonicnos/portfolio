@@ -31,7 +31,9 @@ const About = () => {
               <small>+6 Completed</small>
             </article>
           </div>
-          <p>Hi, I'm Loukas Bassoukos, a 28-year-old tech enthusiast who transitioned into web development a year ago. With a foundation in technical support from three years in Athens, I've honed problem-solving skills. Proficient in web technologies, I bring a fresh perspective and eagerness to learn, combining my customer-centric approach from technical support with a passion for innovative solutions.</p>
+          <p>Hi I'm Loukas Bassoukos, web developer and tech enthusiast. 
+
+With a professional background in tech - support, and strong problem solving skills, I bring to my projects innovative solutions and a fresh perspective. Working from Brussels, Athens, and anywhere else, fluent in French Greek and English.</p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div> 
