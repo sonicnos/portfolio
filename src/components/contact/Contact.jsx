@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
@@ -12,7 +12,6 @@ const Contact = () => {
     console.log(form.current);
     console.log("log");
 
-    return;
     emailjs
       .sendForm(
         "service_dy5pddd",
