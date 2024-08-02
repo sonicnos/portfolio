@@ -3,6 +3,7 @@ import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { data } from "../portofolio/Portofolio";
 
 const About = () => {
   return (
@@ -21,13 +22,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2 Year Learning</small>
+              <small>{new Date().getFullYear() - 2022} Years</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>+6 Completed</small>
+              <small>+{data.length} Completed</small>
             </article>
           </div>
           <p>

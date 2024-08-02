@@ -7,12 +7,12 @@ import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpg";
 
-const data = [
+export const data = [
   {
     id: 1,
     image: IMG1,
     title: "Client Portofolio",
-    github: "https://github.com/sonicnos/mariadrac",
+    github: "",
     demo: "https://mdrakopoulou.com/",
   },
   {
@@ -67,10 +67,22 @@ const Portofolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portofolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                {github && (
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github
+                  </a>
+                )}
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
