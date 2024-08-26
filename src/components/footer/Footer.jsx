@@ -2,8 +2,16 @@ import React from "react";
 import "./footer.css";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const data = [
+    ["#", t("footerHome")],
+    ["#about", t("footerAbout")],
+    ["#experience", t("footerExperience")],
+    ["#contact", t("footerContact")],
+  ];
   return (
     <footer>
       <a href="#" className="footer__logo">
@@ -11,21 +19,13 @@ const Footer = () => {
       </a>
 
       <ul className="permalinks">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+        {data.map((data, index) => {
+          return (
+            <li key={index}>
+              <a href={data[0]}>{data[1]}</a>
+            </li>
+          );
+        })}
       </ul>
       <div className="footer__socials">
         <a
@@ -44,9 +44,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer__bottom">
-        <small>Portofolio</small>
-      </div>
+      <div className="footer__bottom"></div>
     </footer>
   );
 };

@@ -3,13 +3,15 @@ import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import { data } from "../portofolio/Portofolio";
+import { data } from "../portfolio/Portfolio";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>{t("titleAbout")}</h5>
+      <h2>{t("subtitleAbout")}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,25 +23,23 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>{new Date().getFullYear() - 2022} Years</small>
+              <h5>{t("experience")}</h5>
+              <small>
+                {new Date().getFullYear() - 2022} {t("years")}
+              </small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>+{data.length} Completed</small>
+              <h5>{t("projects")}</h5>
+              <small>
+                +{data.length} {t("completed")}
+              </small>
             </article>
           </div>
-          <p>
-            Hi I'm Loukas Bassoukos, web developer and tech enthusiast. With a
-            professional background in tech - support, and strong problem
-            solving skills, I bring to my projects innovative solutions and a
-            fresh perspective. Working from Brussels, Athens, and anywhere else,
-            fluent in French Greek and English.
-          </p>
+          <p>{t("description")}</p>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            {t("contactBtn")}
           </a>
         </div>
       </div>
